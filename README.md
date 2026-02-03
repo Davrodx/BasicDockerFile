@@ -71,7 +71,5 @@ To see the output, add a step that **runs** the container:
 
 Then check the pipeline run logs for the `Build and run image` step.
 
-```
 <img width="1613" height="829" alt="image" src="https://github.com/user-attachments/assets/8b3b2550-5cb0-4322-9833-f3046d181569" />
 
-```
