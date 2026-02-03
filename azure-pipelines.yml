@@ -29,7 +29,8 @@ stages:
           $(tag)
 
     - script: |
-       docker run --rm hello-captain:$(Build.BuildId)
+       docker build -t hello-captain .
+       docker run --rm hello-captain
       displayName: Run container to print message
 
           
